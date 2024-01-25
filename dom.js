@@ -28,12 +28,17 @@ myDiv[0].style.textAlign = "center";
 let newElem = document.createElement('p');
 
 myDiv[0].appendChild(newElem);
+
 newElem.innerHTML = "WOW";
 
 let pencil = document.createElement("img");
 newElem.appendChild(pencil);
+
 pencil.src = "https://akm-img-a-in.tosshub.com/sites/visualstory/wp/2024/01/babar-azam-7-4_675_675.jpg?size=*:900"
 
+// TAG NAME
+let newTag = document.getElementsByTagName('p');
+newTag[1].innerHTML = "HELLO";
 
 
 

@@ -4,7 +4,7 @@ function hello(){
 hello()
 
 
-// Func with PARAmetre
+// Func with PARAMETER
 function person (name , age , grade){
     return name + "" + age + "" + grade ;
 }
