@@ -4,16 +4,19 @@ function hello(){
 hello()
 
 
-// Func with PARAMETER
+// FUNC WITH PARAMETER
+
 function person (name , age , grade){
     return name + "" + age + "" + grade ;
 }
-let myValues = person ("Mustafa" , "1" , "U");
+let myValues = person ("Mustafa" , "18" , "A");
+console.log(myValues);
+
 
 function sum (a,b){
     console.log(`The sum of a + b ${a+b}`);
 }
-sum(30,50)
+sum(30,50);
 
 
 let gameNum = 85;
